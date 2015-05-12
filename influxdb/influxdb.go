@@ -2,7 +2,7 @@ package influxdb
 
 import (
 	"fmt"
-	influxClient "github.com/influxdb/influxdb/client"
+	influxClient "github.com/GeertJohan/influxdb-client-old"
 	"github.com/rcrowley/go-metrics"
 	"log"
 	"time"
